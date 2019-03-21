@@ -6,7 +6,7 @@ For this assignment, you will generate a network of roads to form the basis of a
 
 ## Provided Resources
 You can use any base code for this assignment, so we haven't provided
-anything specific for you. We have included the paper [Real-time Procedural Generation of 'Pseudo Infinite' Cities](procedural_infinite_cities.pdf) for your reference.
+anything specific for you. We have included the paper [Real-time Procedural Generation of 'Pseudo Infinite' Cities](procedural_infinite_cities.pdf) for your reference. For visual inspiration, you might refer to Emily's [City Forgery](http://www.emilyhvo.com/city-forgery/) project.
 
 ## Assignment Requirements
 - __(5 points)__ Based on the code you wrote for the previous assignment, create a 3D model of your terrain. You might consider using the subdivided plane we provided with homework 1. Since the road generation assignment was entirely 2D, your terrain need not have changes in elevation, since that would alter the placement of roads and buildings. The only elevation changes we require are having the water exist at a lower elevation than the land, with a small slope between the two.
@@ -41,4 +41,5 @@ project. Make sure your README contains the following information:
   - Elevation road networking: Roads follow paths of least elevation change
 - Use shape grammars to further refine the structure of your buildings
 - Create fully 3D terrain and adjust the placement of your buildings and roads based on the slope of your terrain.
+- In the vein of Emily's procedural city, use the BioCrowds algorithm to create agents that seek some goal point by navigating the terrain covered by roads. 
 - Add any polish features you'd like to make your visual output more interesting
